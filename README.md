@@ -19,16 +19,8 @@ This repository details on the code and hardware on how to code a gesture tracki
 #### Sensor Connection Guide:
 
 * Clip one pad of the flex sensor and attach it to the positive rail of the breadboard.
-* Clip the second pad of the flex sensor and put it on the breadboard. 
+* Clip the second pad of the flex sensor and put it on the breadboard.
 * In the same row put a jumper wire and connect it to A0 of the Arduino Uno.
 * In the same row put one end of a 10k Ohm resistor and the other end into the ground rail of the breadboard.
 * Repeat the above steps but with A1 and A2.
 * Connect the breadboard to the 5V and Ground of the Arduino.
-
-
-
-#### Servo Connection Guide:
-
-* Connect the VCC and GND pins of a PCA9685 servo driver to the breadboard. 
-* Connect OE to ground. 
-* 
